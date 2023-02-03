@@ -143,13 +143,51 @@ body{
 }
 
 
+.container_game{
+    display:flex;
+    
+}
+
+.container_game_section{
+    display:flex;
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.container_game_section table,td{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-left: 25rem;
+    border: 0.3rem solid black;
+    border-collapse: collapse;
+
+}
+.container_game_section h1, h2, p, caption, th{
+font-size: 2rem;
+justify-content: center;
+font-weight: 600;
+}
+
+th{
+    background-color:rgb(233,192,68);
+    padding:1rem;
+}
+td {
+    padding:2rem;
+}
 
 
 .container_game_footer{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+
+
 }
 
-.container_game_footer{
-
+.container_game_footer p{
+    text-align: center;
+    font-size: 1.3rem;
 }
