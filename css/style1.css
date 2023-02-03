@@ -139,7 +139,17 @@ body{
 }
 
 .container_body_rules_section h2,p, li, ul, ol{
-    margin-left: 2rem;
+    margin-left: 2rem;    
+}
 
-    
+
+
+
+.container_game_footer{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container_game_footer{
+
 }
