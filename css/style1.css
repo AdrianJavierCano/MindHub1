@@ -196,9 +196,15 @@ body{
 
 }
 
-.container_game_section h1, h2, caption, th{
+.container_game_section caption, th{
 font-size: 2rem;
 font-weight: 600;
+
+}
+.container_game_section h1, h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-left: 10rem;
 }
 
 .container_game_section p{
@@ -216,6 +222,10 @@ td {
     padding:2rem;
 }
 
+td iframe{
+    width: 10rem;
+    height: 10rem;
+}
 
 .container_game_footer{
     display: flex;
